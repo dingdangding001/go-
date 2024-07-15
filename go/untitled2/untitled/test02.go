@@ -23,6 +23,8 @@ func greet(s goods) {
 	s.goods()
 }
 func main() {
+	var s int = 20
+	fmt.Println(s)
 	c := chinese{}
 	m := american{}
 	greet(c)
