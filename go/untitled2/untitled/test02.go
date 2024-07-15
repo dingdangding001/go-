@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-type goods interface {
+type goods interface { //这个数据有问题
 	goods()
 }
 type chinese struct {
